@@ -9,10 +9,14 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<div id="sizeInfo">
-        <h1></h1>
+        <h1>Width: x and Height: y</h1>
     </div>
     <script>
-        let h1 = document.querySelector(".sizeInfo > h1");
+        <div id="sizeInfo">
+        <h1>Width: x and Height: y</h1>
+    </div>
+    <script>
+        let h1 = document.querySelector("div > h1");
         window.onload = function(){
             h1.innerHTML = "Width: " + window.innerWidth + " and " + "Height: " + window.innerHeight;
         }
